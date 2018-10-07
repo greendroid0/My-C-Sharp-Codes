@@ -10,14 +10,14 @@ namespace ConsoleApp
 		static void Main(string[] args)			
         {
 		double celsius;
-			Console.Write("Enter Fahrenheit temperature : ");
-			double fahrenheit = Convert.ToDouble(Console.ReadLine());
-			celsius = (fahrenheit - 32) * 5 / 9;
-			Console.WriteLine("The converted Celsius temperature is : " + celsius);
-
-			fahrenheit = (celsius * 9 / 5 ) + 32;
-			Console.WriteLine("The converted Fahrenheit temperature is : " + fahrenheit);
-			Console.ReadLine();
+		Console.Write("Enter Fahrenheit temperature : ");
+		double fahrenheit = Convert.ToDouble(Console.ReadLine());
+		celsius = (fahrenheit - 32) * 5 / 9;
+		Console.WriteLine("The converted Celsius temperature is : " + celsius);
+			
+		fahrenheit = (celsius * 9 / 5 ) + 32;
+		Console.WriteLine("The converted Fahrenheit temperature is : " + fahrenheit);
+		Console.ReadLine();
 		}
 	}
 }
