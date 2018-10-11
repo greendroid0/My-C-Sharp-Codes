@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace boolusage
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {  
+            Console.Write("Enter your game tag, level and your character's first letter (GameTag, level, letter): ");
+
+            string comma = Console.ReadLine();
+          
+            int firstcommaLocation = comma.IndexOf(',');
+            int secondcommaLocation = comma.LastIndexOf(',');
+
+            string GameTag = comma.Substring(0, firstcommaLocation);
+            double level = double.Parse(comma.Substring(firstcommaLocation + 1, 1));
+            char letter = Convert.ToChar(comma.Substring(secondcommaLocation + 1));
+
+            Console.WriteLine("GameTag: " + GameTag);
+            Console.WriteLine("Level: " + level);
+            Console.WriteLine("First Letter: " + letter);
+
+            Console.ReadLine();
+        }
+    }
+}
