@@ -1,0 +1,115 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace boolusage
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*   bool x;
+               int b;
+
+               Console.Write("Input a number: ");
+               b = Convert.ToInt32(Console.ReadLine());
+
+               x = (b > 10);
+               Console.WriteLine(x);
+
+               Console.ReadLine(); */
+
+            /*   char b;
+
+               Console.Write("Press s play game.\n\n");
+               b = Console.ReadKey().KeyChar;
+
+               Console.Clear();
+               if (b == 's')
+               {
+                   Console.WriteLine("Game is loading...");
+               }
+               else
+               {
+                   Console.WriteLine("Please press s to play the game.");
+               }         
+               Console.ReadLine(); */
+
+
+
+            /*  Console.Write("Input game tag.\n");
+            string GameTag = Console.ReadLine();
+
+            Console.Write("Input your level.\n");
+            int level = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Input character's first letter.\n");
+            char letter = Console.ReadKey().KeyChar;
+
+            Console.Clear();
+
+            Console.WriteLine("Your game tag is: " + GameTag + ", your level is: " + level + ", your character's first letter is : " + letter); */
+
+            /*
+            //Read in place
+            Console.Write("Enter name and percent (name, percent): ");
+            string place = Console.ReadLine();
+
+            //find comma location
+            int commaLocation = place.IndexOf(',');
+            
+            //extract name and percent
+            string name = place.Substring(0, commaLocation);
+            float percent = float.Parse(place.Substring(commaLocation + 1));
+
+            //print name and percent
+            Console.WriteLine("Name: " + name);
+            Console.WriteLine("Percent: " + percent);
+
+            Console.WriteLine();
+            */
+
+            /*
+            Console.Write("Enter your game tag, level and your character's first letter (GameTag, level, letter): ");
+
+            string comma = Console.ReadLine();
+          
+            int firstcommaLocation = comma.IndexOf(',');
+            int secondcommaLocation = comma.LastIndexOf(',');
+
+            string GameTag = comma.Substring(0, firstcommaLocation);
+            double level = double.Parse(comma.Substring(firstcommaLocation + 1, 1));
+            char letter = Convert.ToChar(comma.Substring(secondcommaLocation + 1));
+
+            Console.WriteLine("GameTag: " + GameTag);
+            Console.WriteLine("Level: " + level);
+            Console.WriteLine("First Letter: " + letter);
+
+            Console.ReadLine();
+            */
+
+            /*
+            int sayi;
+            sayi = Convert.ToInt32(Console.ReadLine());
+            sayi2 = Convert.ToInt32(Console.ReadLine());
+            if (sayi < sayi2) 
+            {
+                Console.WriteLine("İki sayı birbirinden küçük");               
+            }
+            else if (sayi == sayi2)
+            {
+                Console.WriteLine("İki sayı birbirine eşit");
+            }
+            else (sayı > sayi2)
+            {
+                Console.WriteLine("İki sayı birbirinden büyük");
+            }
+            Console.WriteLine("Value of a is : {0},{1}"sayi, sayi2);
+            Console.ReadLine;
+            */
+
+        }
+    }
+}
