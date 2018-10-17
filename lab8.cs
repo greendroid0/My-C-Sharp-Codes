@@ -30,9 +30,7 @@ public class Program
         litornot = "False";
       }
 
-      Console.Clear();
-
-      Console.WriteLine("Slot Number :\n " + slotnum + "Block Letter :\n " + blockletter + "Lit or Not :\n" + litornot);
+      Console.WriteLine("Slot Number :" + slotnum + "\nBlock Letter :" + blockletter + "\nLit or Not :" + litornot);
 
       Console.ReadLine();
 
